@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/video/video",
+    "pages/advert/advert",
+    "pages/phone/phone"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+   "tabBar": {
+    "color": "#b5b5b6",
+    "selectedColor": "#b5b5b6",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "iconPath": "image/ad1.png",
+        "selectedIconPath": "image/ad.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "iconPath": "image/video1.png",
+        "selectedIconPath": "image/video.png",
+        "pagePath": "pages/video/video",
+        "text": "视频"
+      },
+      {
+        "iconPath": "image/ad1.png",
+        "selectedIconPath": "image/ad.png",
+        "pagePath": "pages/advert/advert",
+        "text": "广告"
+      },
+      {
+        "iconPath": "image/phone1.png",
+        "selectedIconPath": "image/phone.png",
+        "pagePath": "pages/phone/phone",
+        "text": "联系我"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

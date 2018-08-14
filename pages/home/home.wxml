@@ -1,0 +1,60 @@
+<view>
+  <view class='home-pic'>
+    <image class='home-pc' mode='aspectFit' src='/image/1.jpg'></image>
+  </view>
+
+  <view style='display: flex;'>
+    <view style='height:40rpx;background:#008bd5;width:8rpx;margin-left:5rpx'></view>
+    <view class='home-phone'>
+      <view class='home-phonel'>
+        <text style='font-size:30rpx;font-weight:bold;margin-bottom:15rpx'>联系方式</text>
+        <text style='font-size:30rpx;font-weight:bold;margin-bottom:15rpx'>189 2530 6696  李小姐</text>
+        <text style='font-size:30rpx;font-weight:bold;margin-bottom:45rpx'>189 2530 6689  李小姐</text>
+        <text style='font-size:25rpx'>门市：中山市古镇瑞丰灯配城15栋10号</text>
+        <text style='font-size:25rpx'>展厅：中山市横栏镇乐丰四路2号-1</text>
+        <text style='font-size:25rpx'>网址：Http://www.jinduled.cn/</text>
+      </view>
+
+      <view class='home-phoner'>
+        <view class='home-i'>
+          <view class='home-i1'>
+            <image class='home-image' mode='aspectFit' src='/image/code1.jpg'></image>
+            <text style='font-size:17rpx;margin-top:5rpx;margin-bottom:10rpx'>扫一扫加微信好友</text>
+          </view>
+          <view class='home-i1' style='margin-left:10rpx'>
+            <image class='home-image' mode='aspectFit' src='/image/code2.jpg'></image>
+            <text style='font-size:17rpx;margin-top:5rpx;margin-bottom:10rpx'>扫一扫加微信好友</text>
+          </view>
+        </view>
+        <text style='font-size:25rpx;margin-bottom:10rpx'>传真：0760-22326696</text>
+        <text style='font-size:25rpx'>传真：0760-22532989</text>
+      </view>
+    </view>
+  </view>
+
+
+  <view style='margin-top:15rpx'>
+    <map id="myMap" style="width: 100%; height:200px;" latitude="22.6282412352" longitude="113.1973065258" markers="{{markers}}" show-location></map>
+  </view>
+
+  <view style='height:15rpx;background:#ededed;margin-top:15rpx'></view>
+
+
+  <view style='margin-bottom:10rpx'>
+    <view style='display: flex;'>
+      <view style='height:40rpx;background:#008bd5;width:8rpx;margin-left:5rpx;margin-bottom:15rpx;margin-top:10rpx'></view>
+      <text style='font-size:30rpx;font-weight:bold;margin-bottom:15rpx;margin-top:10rpx;margin-left:10rpx'>经营产品</text>
+    </view>
+    <view class='home-pro'>
+      <view class='home-i2' style='width:50%'>
+        <image class='home-image1' mode='aspectFit' src='/image/2.jpg'></image>
+        <text style='font-size:25rpx;margin-top:5rpx;margin-bottom:10rpx'>COB明装筒灯</text>
+      </view>
+      <view class='home-i2' style='width:50%'>
+        <image class='home-image1' mode='aspectFit' src='/image/3.jpg'></image>
+        <text style='font-size:25rpx;margin-top:5rpx;margin-bottom:10rpx'>轨道灯</text>
+      </view>
+    </view>
+  </view>
+
+</view>
