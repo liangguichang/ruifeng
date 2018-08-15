@@ -32,9 +32,33 @@
     </view>
   </view>
 
+  <view style='display: flex;margin-top:20rpx'>
+    <view style='height:40rpx;background:#008bd5;width:8rpx;margin-left:5rpx'></view>
+    <view class='home-phone'>
+      <view class='home-phonel-1'>
+        <text style='font-size:30rpx;font-weight:bold;margin-bottom:15rpx'>联系方式</text>
+        <text style='font-size:30rpx;font-weight:bold;margin-bottom:15rpx'>189 2530 6696  李小姐</text>
+        <text style='font-size:30rpx;font-weight:bold;margin-bottom:15rpx'>189 2530 6689  李小姐</text>
+        <text style='font-size:25rpx;margin-bottom:10rpx'>门市：中山市古镇瑞丰灯配城15栋10号</text>
+        <text style='font-size:25rpx;margin-bottom:10rpx'>传真：0760-22326696</text>
+        <text style='font-size:25rpx;margin-bottom:10rpx'>展厅：中山市横栏镇乐丰四路2号-1</text>
+        <text style='font-size:25rpx;margin-bottom:10rpx'>传真：0760-22532989</text>
+        <text style='font-size:25rpx;margin-bottom:10rpx'>网址：Http://www.jinduled.cn/</text>
+      </view>
+
+      <view class='home-phoner-1'>
+        <image class='home-image-1' mode='aspectFit' src='/image/code1.jpg'></image>
+        <text style='font-size:19rpx;margin-top:5rpx;margin-bottom:10rpx'>扫一扫加微信好友</text>
+        <image class='home-image-1' mode='aspectFit' src='/image/code2.jpg'></image>
+        <text style='font-size:19rpx;margin-top:5rpx;margin-bottom:10rpx'>扫一扫加微信好友</text>
+      </view>
+    </view>
+  </view>
+
+
 
   <view style='margin-top:15rpx'>
-    <map id="myMap" style="width: 100%; height:200px;" latitude="22.6282412352" longitude="113.1973065258" markers="{{markers}}" show-location></map>
+    <map id="myMap" style="width: 100%; height:200px;" latitude="22.6282412352" longitude="113.1973065258" markers="{{markers}}" show-location bindtap="bindmarkertap"></map>
   </view>
 
   <view style='height:15rpx;background:#ededed;margin-top:15rpx'></view>

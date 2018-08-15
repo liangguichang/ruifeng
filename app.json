@@ -17,8 +17,8 @@
     "backgroundColor": "#fff",
     "list": [
       {
-        "iconPath": "image/ad1.png",
-        "selectedIconPath": "image/ad.png",
+        "iconPath": "image/home1.png",
+        "selectedIconPath": "image/home.png",
         "pagePath": "pages/home/home",
         "text": "首页"
       },

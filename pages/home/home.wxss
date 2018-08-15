@@ -29,7 +29,10 @@
   width: 140rpx;
   height: 140rpx
 }
-
+.home-image-1{
+  width: 150rpx;
+  height: 150rpx
+}
 .home-i1{
   display: flex;
   flex-direction: column;
@@ -53,4 +56,22 @@
   flex-direction: column;
   justify-content: center;
   align-items:center;
+}
+
+
+.home-phonel-1{
+  margin-left: 10rpx;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items:left;
+}
+
+.home-phoner-1{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items:right;
 }

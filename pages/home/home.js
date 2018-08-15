@@ -7,12 +7,11 @@ Page({
   data: {
     markers: [{
       id: 1,
-      latitude: 22.6282412352,
-      longitude: 113.1973065258,
+      latitude: 22.628113,
+      longitude: 113.200711,
       name: ''
     }]
   },
-
   /**
    * 生命周期函数--监听页面加载
    */
@@ -20,48 +19,14 @@ Page({
   
   },
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-  
+  bindmarkertap: function (options){
+    wx.openLocation({
+      latitude: 22.628113,
+      longitude: 113.200711,
+      scale: 25,
+      name:'中山市古镇瑞丰灯配城15栋10号'
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
   /**
    * 用户点击右上角分享
    */
